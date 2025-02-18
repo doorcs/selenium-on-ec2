@@ -25,3 +25,20 @@ pip3 install -r requirements.txt
 
 python3 main.py
 ```
+
+## CopyPaste
+```shell
+sudo yum update -y
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+
+sudo yum install ./google-chrome-stable_current_x86_64.rpm git -y
+
+sudo ln -s /usr/bin/google-chrome-stable /usr/bin/chromium
+
+git clone https://github.com/doorcs/selenium-on-ec2.git
+
+cd selenium-on-ec2/
+
+pip3 install -r requirements.txt
+```
